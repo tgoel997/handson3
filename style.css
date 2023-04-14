@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.uppercontainer{
+    width: 30%;
+    height: auto ;
+    border: solid 5px red;
+    border-radius: 20px;
+    color: blueviolet;
+    text-align: center;
+    margin: auto;
+    background-color: antiquewhite;
+    font-style: italic;
+    box-shadow: 4px 4px ;
+    text-shadow: 2px 2px 2px;
+}
+.parent{
+    height: auto;
+    width: 100%;
+    border: solid 5px green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 420px;
+    text-align: center;
+    row-gap: 100px;
+    margin-bottom: 50px;
+
+}
+.box{
+    height: 300px;
+    width: 300px;
+    border: solid 5px red;
+    border-radius: 20px;
+    color: rgb(4, 4, 48);
+    text-shadow: 2px 2px 2px;
+    box-shadow: 6px 6px purple;
+    background-color: azure;
+
+
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.box1{
+   line-height: 50px;
+   padding-top: 20px;    
+
+}
+.box2{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+.box3{
+text-align: left;
+
+}
+.box4{
+ padding-top: 20px;
+}
+.abc{
+    margin-top: 20px;
+}
+.parent-2{
+    background-color: green;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+
+}
+.row{
+    height: 250px;
+    width: 45%;
+    color: black;
+    text-shadow: 2px 2px 2px;
+    background-color: yellow;
+    margin: auto;
+    
+}
+
+.parent-3{
+    height: 100px;
+    width: 500px;
+    border: solid 5px red;
+    border-radius: 20px;
+    color: red;
+    text-shadow: 2px 2px 2px;
+    box-shadow: 6px 6px purple;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
+    margin: auto;
+    position: fixed;
+    z-index: 7px;
+    top: 500px;
+    left: 33%;
+}
+body{
+    background-color: grey;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.bottombox{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 20px;
+}
+.row2{
+    height: 200px;
+    width: 98%;
+    color: black;
+    text-shadow: 2px 2px 2px;
+    background-color: yellow;
+    margin-left: 20px;
+}
+.row2 > h1 { text-align:center;}
